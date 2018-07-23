@@ -1,6 +1,6 @@
 # Code your solution here!
 def run_guessing_game 
-  guess_num = nil
+  guess_num = 0
   player_answer = nil
   puts "Guess a number between 1 and 6."
   while guess_num !=  player_answer do
