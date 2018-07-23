@@ -3,8 +3,7 @@ def run_guessing_game
   guess_num = nil
   player_answer = nil
   puts "Guess a number between 1 and 6."
-  while guess_num !=  player_answer
-    
+  while guess_num !=  player_answer do
     player_answer = gets.chomp
     guess_num = 1 + Random.rand(6)
     if player_answer == guess_num
