@@ -1,7 +1,8 @@
 # Code your solution here!
 def run_guessing_game 
   guess_num = nil
-  player_answer = nilputs "Guess a number between 1 and 6."
+  player_answer = nil
+  puts "Guess a number between 1 and 6."
   while guess_num !=  player_answer
     
     player_answer = gets.chomp
